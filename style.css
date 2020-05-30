@@ -1,0 +1,13 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: orange;
+}
+.head-design{
+    font-size: 60px;
+    font-weight: 600;
+}
