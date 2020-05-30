@@ -1,8 +1,22 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-h1{
-    font-size: 50px;
+.header-part{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+.my-content h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.my-content h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.my-content p{
+    line-height: 26px;
 }
 .name-highlight{
     color: orange;
@@ -10,4 +24,92 @@ h1{
 .head-design{
     font-size: 60px;
     font-weight: 600;
+}
+
+.btn-design{
+    color: #ffffff;
+    text-decoration: none;
+    background: #F88265;
+    padding: 5px 20px;
+    transition: 0.5s all ease;
+    font-weight: 500;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.btn-design:hover{
+    color: orange;
+    text-decoration: none;
+    border: 1px solid orange;
+    background: none;
+}
+
+
+
+/* middle part start */
+.middle-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.image-area img{
+    width: 350px;
+}
+.middle-content-design h2{
+    font-weight: bold;
+}
+.font-des{
+    font-weight: 500;
+}
+.line-height{
+    line-height: 26px;
+}
+
+
+.main-content h2{
+    font-weight: bold;
+}
+.experience {
+	background-image: url(images/exp-bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	
+}
+.experience h2{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.experience h3{
+    font-size: 14px;
+    color: orange;
+}
+
+.experience p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    width: 95%;
+}
+
+.left-part {
+	box-shadow: -16px 8px 38px #ddd;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.right-part{
+    box-shadow: -16px 8px 38px #ddd;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#left-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#right-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(75, 142, 230), rgb(126, 71, 255));
+    border-image-slice: 1;
 }
